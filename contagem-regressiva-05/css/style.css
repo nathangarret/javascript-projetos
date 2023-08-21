@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    user-select: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center; 
+}
+
+.titulo{
+    font-size: calc(
+        10px + 3vw
+    );
+}
+
+.titulo p{
+    font-size: calc(
+        10px + 1vw
+    );
+}
+
+.contagemRegressiva{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contagemRegressiva h1{
+    font-size: calc(
+        10px + 8vw
+    );
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
